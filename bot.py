@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import redis
 import os
 import telebot
 # import some_api_lib
@@ -8,11 +7,10 @@ import telebot
 # Example of your code beginning
 #           Config vars
 token = os.environ['TELEGRAM_TOKEN']
-some_api_token = os.environ['SOME_API_TOKEN']
 #             ...
 
 
-bot = telebot.TeleBot('<ваш токен>')
+bot = telebot.TeleBot(token)
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
 keyboard1.row('Привет', 'Пока')
 

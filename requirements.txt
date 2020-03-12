@@ -1,11 +1,7 @@
-# List of required packages (Dependencies)
-redis
-
-# If you need to specify a version
-requests==2.16.5
-
-# Or you need not a pip package, @'...' specifies git branch
-git+https://github.com/Kylmakalle/pyTelegramBotAPI.git@feature-BotAPIV3
-
-# Or you have .zip library
-https://site.org/files/package.zip
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.9
+pyTelegramBotAPI==3.6.7
+requests==2.23.0
+six==1.14.0
+urllib3==1.25.8
